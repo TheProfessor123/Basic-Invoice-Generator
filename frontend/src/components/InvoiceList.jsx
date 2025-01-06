@@ -5,7 +5,7 @@ const InvoiceList = () => {
   const [invoices, setInvoices] = useState([]);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/api/invoices`)
+    fetch('https://basic-invoice-generator-api.vercel.app/api/invoices')
       .then(response => response.json())
       .then(data => setInvoices(data))
       .catch(error => console.error('Error fetching invoices:', error));
