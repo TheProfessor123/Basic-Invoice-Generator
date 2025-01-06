@@ -16,7 +16,7 @@ function App() {
     setInvoiceData(updatedData);
   
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/invoices`, {
+      const response = await fetch('https://basic-invoice-generator-api.vercel.app/api/invoices', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updatedData),
