@@ -85,12 +85,3 @@ The application will be available at `http://localhost:3000`
 
 Your Name - chaganramchoudhary7@gmail.com
 Project Link: [https://github.com/yourusername/Basic-Invoice-Generator](https://github.com/TheProfessor123/Basic-Invoice-Generator.git)
-
-
-- Complete tech stack details
-- Step-by-step installation instructions
-- API endpoint documentation
-- Deployment information
-- License and contact information
-
-The format is professional and follows standard README conventions with proper Markdown formatting for easy reading and navigation.
